@@ -31,12 +31,6 @@
         </nav>
     </header>
 
-
-
-    <script src="main.js"></script>
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
     <!--Home Section Design-->
 
     <section class="home flex-center" id="home">
@@ -576,6 +570,70 @@
       </div>
     </div>
   </footer>
+
+
+  <script src="main.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+  <!-- Scroll animation -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script>
+    ScrollReveal({ 
+      reset: true,
+      distance: '60px',
+      duration: 2500,
+      delay: 200
+    });
+    
+
+    // Navigation bar
+    ScrollReveal().reveal('.header')
+
+    // Home
+    ScrollReveal().reveal('.home-img')
+    ScrollReveal().reveal('.home-content-h3', { delay: 400, origin: 'left' })
+    ScrollReveal().reveal('.home-content-h1', { delay: 500, origin: 'left' })
+    ScrollReveal().reveal('.home-content-h3-2', { delay: 600, origin: 'left'})
+    ScrollReveal().reveal('.home-content-p', { delay: 700, origin: 'left'})
+    ScrollReveal().reveal('.social-media a', {interval: 100, origin: 'left'})
+    ScrollReveal().reveal('.btn-home')
+    
+
+    // About
+    ScrollReveal().reveal('.section-title-01', { delay: 400})
+    ScrollReveal().reveal('.section-title-02', { delay: 500})
+    ScrollReveal().reveal('.about-img', { delay: 400, origin: 'left' })
+    ScrollReveal().reveal('.about-content h3', { delay: 400, origin: 'right' })
+    ScrollReveal().reveal('.about-content p', { delay: 500, origin: 'right' })
+    ScrollReveal().reveal('.about-content a')
+
+    // Service
+    ScrollReveal().reveal('.service-container', { delay: 50})
+
+    // Skills
+    ScrollReveal().reveal('.timeline', { delay: 400})
+
+    // Project
+    ScrollReveal().reveal('.card', {interval: 100})
+
+    // Contact
+    ScrollReveal().reveal('.contact-left h2', { delay: 200, origin: 'left' })
+    ScrollReveal().reveal('.item-title', { delay: 400, origin: 'left' })
+    ScrollReveal().reveal('.item', { delay: 700})
+    ScrollReveal().reveal('.contact-right p', { delay: 200, origin: 'right' })
+    ScrollReveal().reveal('.contact-right form', { delay: 500, origin: 'right' })
+    
+    // Footer
+    ScrollReveal().reveal('.footer-col', {interval: 100})
+    ScrollReveal().reveal('.footer-col li', {interval: 70, origin: 'right' })
+    ScrollReveal().reveal('.footer-col a', {interval: 50})
+
+
+
+  </script>
 
 
 
