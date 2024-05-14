@@ -100,7 +100,7 @@ a{
     display: none;
     
 }
-**********************************************
+
 .home{
     display: flex;
     justify-content: center;
@@ -133,7 +133,7 @@ span{
 .home-img img{
     animation: floatImage 4s ease-in-out infinite;
     width: 20vw; /* Adjust the width and height as needed */
-    height: 23vw;
+    height: 20vw;
     border-radius: 50%; /* Makes the image circular */
     overflow: hidden; /* Ensures the image stays within the circular boundary */
     margin-top: -7rem;
@@ -218,7 +218,7 @@ box-shadow: 0 0 1rem var(--main-color);
 /* ********************* about ******************************** */
 
 .about-content{
-    margin: -30rem 0 3rem 35rem;
+    margin: -25rem 0 3rem 35rem;
     text-align: center;
 }
 
@@ -229,7 +229,7 @@ box-shadow: 0 0 1rem var(--main-color);
 }
 
 .about-content h3{
-    font-size: 2.6rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
     /* text-align: right; */
 }
@@ -287,10 +287,11 @@ box-shadow: 0 0 1rem var(--main-color);
     margin: 1rem 0 3rem;
     
 }
+
 /* Portfolio Section */
 
 
-.section-title-01{
+ .section-title-01{
     font-size: 4rem;
     font-weight: 800;
     margin-bottom: 2rem;
@@ -535,13 +536,16 @@ box-shadow: 0 0 1rem var(--main-color);
     display: flex;
     justify-content: center;
     padding-top: 1rem ;
+    color: white;
   }
   .card-content p{
     display: flex;
     text-align: center;
+    justify-content: center;
     margin-top: 0.2rem;
     padding-top: .5rem ;
     padding-bottom: 1rem ;
+    color: white;
   }
   .popup-content img{
     width: 700px;
@@ -558,7 +562,7 @@ box-shadow: 0 0 1rem var(--main-color);
   .popup-content p {
     margin-bottom: 1rem;
   }
-
+  
   #project{
     display: flex;
     flex-wrap: wrap;
@@ -610,6 +614,10 @@ box-shadow: 0 0 1rem var(--main-color);
 .popup-screen-btn{
     margin-top: 1rem;
 }
+
+
+
+
 
 /* Contact section */
 /* ********************* Contact section ******************************** */
@@ -767,6 +775,11 @@ box-shadow: 0 0 1rem var(--main-color);
     margin: 0; /* Adjust margin as needed */
 }
 
+
+
+
+
+
 /* Footer section */
 /* ********************* Footer section ******************************** */
 
@@ -882,7 +895,6 @@ padding-left: 8px;
     background-color:var(--bg-color);
 }
 
-
 /* responsive */
 
 @media(max-width:767px){
@@ -899,4 +911,11 @@ padding-left: 8px;
 
     }
 }
+
+
+
+
+
+
+
 
