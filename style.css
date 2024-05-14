@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poetsen+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+
+}
+
+:root{
+    --bg-color:#191f36;
+    --smd-bf-color:#262B40;
+    --text-color:white;
+    --main-color:#5982F4;
+    --transparent-color-01: rgba(106, 89, 209, 0.1);
+
+}
+
+html{
+    /* font: size 62.5%; */
+    /* overflow-x: hidden; */
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+a{
+    text-decoration: none;
+}
+.stroke-text-white{
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+::placeholder {
+    color: var(--text-color);
+    opacity: 1; /* Firefox */
+  }
+
+/* **************************************************** */
