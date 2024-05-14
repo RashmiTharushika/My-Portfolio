@@ -766,3 +766,118 @@ box-shadow: 0 0 1rem var(--main-color);
     border: 1px solid var(--bg-color); /* Change color and style as needed */
     margin: 0; /* Adjust margin as needed */
 }
+
+/* Footer section */
+/* ********************* Footer section ******************************** */
+
+.footer{
+    background-color:var(--smd-bf-color);
+    padding: 30px 0;
+    line-height: 1;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-content{
+    max-width: 1170px;
+    margin: 1rem; 
+    justify-content: center;
+}
+
+
+ul{
+    list-style: none;
+    margin-left: -2rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-col{
+width: 25%;
+padding: 0 10px;
+margin-left: 6rem;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: gray;
+    text-decoration: none;
+    font-weight: 300;
+    /* color:yellowgreen ; */
+    display: block;
+    transition: all 0.3s ease;
+}
+
+
+.footer-tech li{
+    font-size: 16px;
+    color: gray;
+    text-transform: capitalize;
+    font-weight: 300;
+    transition: all 0.3s ease;
+
+} 
+
+.footer-tech li:hover{
+    color: white;
+    padding-left: 8px;
+
+}
+
+.footer-col ul li a:hover{
+color: white;
+padding-left: 8px;
+
+}
+
+.footer-col .footer-contact a{
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:var(--bg-color);
+    transition: all 0.5s ease;
+    
+}
+
+.footer-col .footer-contact a:hover{
+    color:gray;
+    background-color:var(--bg-color);
+}
