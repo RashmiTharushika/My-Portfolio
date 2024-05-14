@@ -558,3 +558,211 @@ box-shadow: 0 0 1rem var(--main-color);
   .popup-content p {
     margin-bottom: 1rem;
   }
+
+  #project{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .btn-project{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    background: var(--main-color);
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: .8rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn-project:hover{
+    box-shadow: none;
+}
+.btn-popup{
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    background: var(--main-color);
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: .8rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 33%;
+    margin-bottom: 1rem;
+}
+.btn-popup:hover{
+    box-shadow: none;
+}
+.popup-screen-btn{
+    margin-top: 1rem;
+}
+
+/* Contact section */
+/* ********************* Contact section ******************************** */
+
+.contact .container .content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+}
+.contact-right{
+    margin-left: 80px;
+}
+.contact-left{
+    margin-left: -20px;
+}
+.content-left h2{
+    font-size: 2.1em;
+    font-weight: 800;
+    margin-bottom: 140px;
+}
+
+.contact-list li{
+    margin-bottom: 40px;
+}
+
+.contact-list li h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    
+}
+
+.contact-list li h3 i{
+    font-size: 1.3rem;
+    /* color: var(--text-color); */
+    color: var(--main-color);
+    margin-right: 10px; 
+}
+
+.item-title{
+    /* color: var(--main-color); */
+}
+
+.contact-list li address{
+    color: var(--text-color);
+    margin-left: 40px;
+    
+}
+
+.contact-list li span a{
+    color: var(--main-color);
+}
+.contact-list li span{
+    color: var(--text-color);
+}
+
+.contact-right p{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+.contact-right p span{
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+#contact-input{
+    color: var(--text-color);
+}
+.textarea{
+    color: var(--text-color);
+}
+
+
+.contact-form input, .contact-form textarea{
+    border: none;
+    color: var(--main-color);
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 15px 40px 40px 20px;
+    border-radius: 5px;
+}
+
+.contact-form textarea{
+    width: 100%;
+    resize: none;
+}
+
+.contact-form .first-row input{
+    width: 100%;
+}
+
+.contact-form .second-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 105%;
+}
+
+.contact-form .second-row input {
+    width: 48%;
+}
+
+.contact-form .btn{
+    border: none;
+    margin-top: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-contact{
+    /* background-color: #2cff92; */
+    display: flex;
+    justify-content: left;
+}
+
+#btn-contact-input{
+    text-decoration: none;
+    display: inline-block;
+    background: var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 700;
+    transition: .5s ease;
+    height: 1rem;
+    width: 10rem;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4rem;
+    font-size: 1rem;
+    color: var(--bg-color);
+}
+#btn-contact-input:hover{
+    box-shadow: none;
+    background: var(--main-color);
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+
+
+
+
+/* horizontal line */
+
+.horizontal-line {
+    border: 1px solid var(--bg-color); /* Change color and style as needed */
+    margin: 0; /* Adjust margin as needed */
+}
